@@ -1,9 +1,9 @@
 {
-  "name": "PRINCEAI",
+  "name": "MANNO-GDS",
   "description": "whatsapp user bot",
-  "repository": "https://github.com/DASTAGHIR/PRINCEAI",
-  "logo": "https://qu.ax/lwgPL.jpg",
-  "success_url": "https://github.com/DASTAGHIR/PRINCEAI",
+  "repository": "https://github.com/MANNO-GDS/PRINCEAI",
+  "logo": "https://i.ibb.co/7xjzhq4N/temp-image.jpg",
+  "success_url": "https://github.com/MANNO-GDS/PRINCEAI",
   "keywords": [
     "nodejs", "heroku", "bot", "urdu", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
     "termux", "superbot", "multi-device", "md", "official", "javascript", "princebot"
@@ -19,12 +19,12 @@
     "BOT_NAME": {
       "description": "put your BOT a name",
       "required": true,
-      "value": "PRINCE-BOT"
+      "value": "💌 𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝙈𝘿 💌"
     },
     "OWNER_NUMBER": {
       "description": "put your Number and name for Owner",
       "required": true,
-      "value": "6281220527432,Prince♥️The Developer"
+      "value": "923097045246,⏜✩ ˻𝐈ʈͥ᥊ ϻaͣŋͫŋ̑ο̑˼ 𓃮•:)♥️"
     },
     "MODE": {
       "description": "choose bot mode public or private",
@@ -104,7 +104,7 @@
     "PACK_NAME": {
       "description": "put your stickers pack name",
       "required": false,
-      "value": "Prince♥️"
+      "value": "."
     },
     "DL_MSG": {
       "description": "Video downloader caption",
