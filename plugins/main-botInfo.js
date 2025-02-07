@@ -56,11 +56,12 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER🧑‍💻*
- _PRINCE GDS_
-▢ https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11
+ *_MANNO GDS_*
+*▢ +923097045246*
   
-▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
+*▢ MY BOT GC LINK.*
+*https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM*
+  
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
