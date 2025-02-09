@@ -12,7 +12,7 @@ await displayLoadingScreen(conn, m.chat)
       }) * 1000
     }
     let muptime = clockString(_muptime)
-    let str = `*あMANNO RUNTIMEあ* *\n\n${muptime}*`
+    let str = `あMANNO RUNTIMEあ \n\n${muptime}*`
     conn.sendMessage(m.chat, {
       text: str,
       contextInfo: {
@@ -26,7 +26,7 @@ await displayLoadingScreen(conn, m.chat)
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝘽𝙊𝙏",
+      title: "♥️ 𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝘽𝙊𝙏 ♥️",
       body: "R U N T I M E",
       thumbnailUrl: pp,
       sourceUrl: 'https://i.imgur.com/EOU8n5C.jpg',
