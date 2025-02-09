@@ -3,7 +3,7 @@
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
-    let name = m.pushName || conn.getName(m.sender)
+    let name = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `MANNO-BOT`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GURU-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     var vn = "https://cdn.jsdelivr.net/gh/Itxmanno05/GURU-BOT@main/Assets/mp3/sajjad.m4a"
     let url = "https://github.com/MANNO-GDS/MANNO-MD-2.0"
     let murl = "https://youtu.be/DibiLc17dh0?si=xp9bQ-_frEyDB1-i"
