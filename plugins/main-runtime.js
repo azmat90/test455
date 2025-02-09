@@ -1,6 +1,8 @@
+import displayLoadingScreen from '../lib/loading.js'
+
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-let pp = ''
-m.react('⏳')
+let pp = 'https://i.pinimg.com/736x/eb/a7/25/eba725b9c8df5d9b199e950694f18aaf.jpg'
+await displayLoadingScreen(conn, m.chat)
 	let _muptime
     if (process.send) {
       process.send('uptime')
@@ -10,7 +12,7 @@ m.react('⏳')
       }) * 1000
     }
     let muptime = clockString(_muptime)
-    let str = `🟢ᴍᴀɴɴᴏ-ᴍᴅ ᴜᴘᴛɪᴍᴇ\n\n🎗️ʙᴏᴛ ᴀᴄᴛɪᴠᴇ ᴅᴜʀᴀᴛɪᴏɴ\n *${muptime}⏰*`
+    let str = `*あMANNO RUNTIMEあ* *\n\n${muptime}*`
     conn.sendMessage(m.chat, {
       text: str,
       contextInfo: {
@@ -24,18 +26,17 @@ m.react('⏳')
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "📁ᴍᴀɴɴᴏ-ᴍᴅ📁",
-      body: "ʀᴜɴɪɴɢ sɪɴᴄᴇ",
+      title: "𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝘽𝙊𝙏",
+      body: "R U N T I M E",
       thumbnailUrl: pp,
-      sourceUrl: '',
+      sourceUrl: 'https://i.imgur.com/EOU8n5C.jpg',
       mediaType: 1,
-      renderLargerThumbnail: false
+      renderLargerThumbnail: true
       }}})
-      m.react('✅')
 }
 handler.help = ['runtime']
 handler.tags = ['main']
-handler.command = ['runtime', 'uptime', 'run']
+handler.command = ['runtime', 'uptime']
 export default handler
 
 function clockString(ms) {
